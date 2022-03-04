@@ -13,6 +13,7 @@ A Myocardial Infarction or a Heart Attack occurs due to the lack of blood floor 
 &nbsp;
 ![Coronery Artery Disease](images/readme_intro.jpg)
 &nbsp;
+&nbsp;
 The sure and the well-known way of knowing the risk of a MI is by performing an invasive angiogram. This method detects blokages using x-rays that are taken during injection of a contrast iodine dye. 
 &nbsp;
 #### What are the issues associated with this procedure?
