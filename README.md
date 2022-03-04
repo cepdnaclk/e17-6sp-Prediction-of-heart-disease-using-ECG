@@ -10,12 +10,14 @@ ___
 
 ## Introduction
 A Myocardial Infarction or a Heart Attack occurs due to the lack of blood floor to heart muscles. This is an emergency medical condition where your heart muscles begin to die which could lead to permanent heart damage and even death. The main cause of a heart attack has been identified as Coronery Artery Disease i.e. blockages in the tubes of the circulation system.
+&nbsp;
 ![Coronery Artery Disease](images/readme_intro.jpg)
 &nbsp;
 The sure and the well-known way of knowing the risk of a MI is by performing an invasive angiogram. This method detects blokages using x-rays that are taken during injection of a contrast iodine dye. 
 &nbsp;
 #### What are the issues associated with this procedure?
 - It's an invasive procedure done under sedation with local anesthisia therefore has certain complications and side effects in the precedure although the high complications are very rare in most of the cases
+- &nbsp;
 [Read more about Angiograms](https://vascular.org/patient-resources/vascular-tests/angiogram)
 - Not accessible everywhere at any time for just anybody
 - Has to wait in waiting list
@@ -41,10 +43,10 @@ Our approach is extending these reasearches to predict a risk of a MI.
 -  E/17/242, Ruchika Perera, [email](mailto:e17242@eng.pdn.ac.lk)
 -  E/17/044, Deanna Coralage, [email](mailto:e17044@eng.pdn.ac.lk)
 
-## Scrum Master
+### Scrum Master
 -  Anjalee Wanigarathne, [email](mailto:anj.wanigarathne@eng.pdn.ac.lk)
 
-## Product Owners
+### Product Owners
 -  Dr. Dhammika Elkaduwa, [email](mailto:dhammika@eng.pdn.ac.lk)
 -  Dr. Sampath Deegalla, [email](mailto:sampath@eng.pdn.ac.lk)
 
