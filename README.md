@@ -35,6 +35,7 @@ An ECG (ElctroCardioGram) is used to analyze arrythmias i.e.irregularities in he
 A point to note in this particular domain is that there is no straight-forward way of detecting potential MIs directly from an ECG. Usually it is used to identify whether a heart attack has occured which produces abnormal heart rhythms on the ECG. We are developing an approach to identify potential MIs through minor arrythmias that are not very visible at early stages to the naked eye, through an automated computerized system.
 #### Existing solutions
 Various reaseaches have been done on this area. These projects have focused on automatic extraction of relavant and reliable information from ECG signals that has not been as easy task for a computerized system and classifying into heart disease classes.
+&nbsp;
 [Read more about this research](https://www.researchgate.net/publication329318348_ECG_Signal_Classification_with_Deep_Learning_for_Heart_Disease_Identification)
 Our approach is extending these reasearches to predict a risk of a MI.
 
