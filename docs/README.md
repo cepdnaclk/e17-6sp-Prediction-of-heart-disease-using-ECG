@@ -63,7 +63,7 @@ Our approach is extending these reasearches to predict a risk of a MI.
 - Verified members should be given the facility to get predictions on un-limiter number of ECGs
 - When uploading an ECG of a new patient who's details are not currently in the database will be added using the header data of the ECG which includes NIC, name, date of birth and gender
 - ECGs uploaded for predictions by verified members should be stored in the database with a unique number along with patient details and system's predictions, and the uploaded date will be automatically saved
-- A verified member can view details of any patient using NIC and should be able to see all his previous ECGs. (_Displaying format is the same -> point 3_)
+- A verified member can view details of any patient using NIC and should be able to see all his previous ECGs. (_Displaying format is the same -> point 4_)
 - A verified member can insert any identified diseases of a patient including the type of disease, affected date and the affected number known as _diagnosis._ If the diagnosis is valid(valid auth, no previous inserts on the same diagnosis) the verified member will be awarded _helper points_ that are stored along with a verified member's other details which can be deducted from the total at the payment
 
 #### Non-functional Requirements
