@@ -13,13 +13,13 @@ ___
 ## Use Case Diagrams
 
 ### High-level Software System
-![High level software system](Use Case Diagram_Software System.png)
+![High level software system](Use%20Case%20Diagram_Software System.png)
 
 ### Authentication & Authorizatio System
-![Auth System](Use Case Diagram_Auth.png)
+![Auth System](Use%20Case%20Diagram_Auth.png)
 
 ### Heart Disease Predictor System
-![Predictor system](Use Case Diagram_Predictor.png)
+![Predictor system](Use%20Case%20Diagram_Predictor.png)
 
 ### Patient History Predictor System
-![Tracker](Use Case Diagram_Tracker.png)
+![Tracker](Use%20Case%20Diagram_Tracker.png)
