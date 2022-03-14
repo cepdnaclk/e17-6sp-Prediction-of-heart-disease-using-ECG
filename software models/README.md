@@ -3,8 +3,8 @@ ___
 ___
 
 #### Table of Contents
-1. [UML Class Diagram](#uml class diagram)
-2. [Use Case Diagrams](#use case diagrams)
+1. [UML Class Diagram](#uml-class-diagram)
+2. [Use Case Diagrams](#use-case-diagrams)
 
 
 ## UML Class Diagram
