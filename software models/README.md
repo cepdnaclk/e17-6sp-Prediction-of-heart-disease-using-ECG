@@ -8,7 +8,7 @@ ___
 
 
 ## UML Class Diagram
-![UML Class Diagram](UML Class Diagram.png)
+![UML Class Diagram](UML-Class-Diagram.png)
 
 ## Use Case Diagrams
 
