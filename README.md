@@ -19,6 +19,7 @@ The sure and the well-known way of knowing the risk of a MI is by performing an 
 - Has to wait in waiting list
 - Comparatively expenive
 - There can be other causes of a heart attack which are not identified through angiograms
+
 ![What is Angiogram?](images/angiogram.jpg)
 
 ## Our Project
