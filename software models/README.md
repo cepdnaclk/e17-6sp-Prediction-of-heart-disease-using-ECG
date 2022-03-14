@@ -15,11 +15,11 @@ ___
 ### High-level Software System
 ![High level software system](Use%20Case%20Diagram_Software%20System.png)
 
-### Authentication & Authorizatio System
+### Authentication & Authorization System
 ![Auth System](Use%20Case%20Diagram_Auth.png)
 
 ### Heart Disease Predictor System
 ![Predictor system](Use%20Case%20Diagram_Predictor.png)
 
-### Patient History Predictor System
+### Patient History Tracker System
 ![Tracker](Use%20Case%20Diagram_Tracker.png)
