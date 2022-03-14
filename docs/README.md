@@ -53,8 +53,27 @@ Our approach is extending these reasearches to predict a risk of a MI.
 
 ## Requirement Analysis
 #### Functional Requirements
+- System should be able to predict potential heart diseases when an ECG is uploaded. As the initial stage predict potential Myocardial Infarctions
+- Format of the ECG input to the system should be xx. The ECG header includes patient NIC, name, date of birth and gender
+- Any person(_user_) should be able to visit the web-page and upload up to a maximum of 1 ECG per day which should be handled by a throttling process.  This doesn't require any auth process. The homepage of the app should provide this functionality. This feature will be developed in latter parts after evaluating the model success rate and has a higher accuracy
+- When displaying ECGs and results, the option of visualizing the waveform with play, pause buttons should be given, along with the prediction result and a button to re-predict
+- Verified MBBS doctors should be able to create an account and login to the system and are known as _verified members_, this requires the MBBS identification number, name, username, email an password
+- A verified member is required to make a monthly payment 
+- Verified members should be provided with a dashboard to view profile and change password
+- Verified members should be given the facility to get predictions on un-limiter number of ECGs
+- When uploading an ECG of a new patient who's details are not currently in the database will be added using the header data of the ECG which includes NIC, name, date of birth and gender
+- ECGs uploaded for predictions by verified members should be stored in the database with a unique number along with patient details and system's predictions, and the uploaded date will be automatically saved
+- A verified member can view details of any patient using NIC and should be able to see all his previous ECGs. (_Displaying format is the same -> point 3_)
+- A verified member can insert any identified diseases of a patient including the type of disease, affected date and the affected number known as _diagnosis._ If the diagnosis is valid(valid auth, no previous inserts on the same diagnosis) the verified member will be awarded _helper points_ that are stored along with a verified member's other details which can be deducted from the total at the payment
 
 #### Non-functional Requirements
+- Initial project is required to be delivered with 10 weeks of time from 14/02/2022 - 22/04/2022
+- Since this system handles health details about people, considering security aspects of the system is crucial
+- Reliability of predictions, patient details and history is important
+- Evaluating speed should be kept as quick as possible to reduce the time to wait for predictions
+- Interfaces should be user-friendly
+- Access controlling to various features of the system is important
+
 
 ## Software Models
 
