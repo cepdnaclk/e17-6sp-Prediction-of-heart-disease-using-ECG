@@ -21,7 +21,9 @@ title:
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Our Project](#our-project)
-3. [Links](#links)
+3. [Requirement Analysis](#requirement-analysis)
+4. [Software Models](#software-models)
+5. [Links](#links)
 
 ---
 
@@ -49,12 +51,20 @@ Various reaseaches have been done on this area. These projects have focused on a
 [Read more about this research](https://www.researchgate.net/publication329318348_ECG_Signal_Classification_with_Deep_Learning_for_Heart_Disease_Identification)
 Our approach is extending these reasearches to predict a risk of a MI.
 
+## Requirement Analysis
+### Functional Requirements
+
+### Non-functional Requirements
+
+## Software Models
+
+
 .....
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{e17-co328-Prediction-of-heart-disease-using-ECG}}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{e17-co328-Prediction-of-heart-disease-using-ECG}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/{{e17-co328-Prediction-of-heart-disease-using-ECG}})
+- [Project Page](https://cepdnaclk.github.io/{{e17-co328-Prediction-of-heart-disease-using-ECG}})
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
