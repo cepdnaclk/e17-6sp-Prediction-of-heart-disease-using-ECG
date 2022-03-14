@@ -23,7 +23,9 @@ title: Prediction of Heart Disease using ECG
 2. [Our Project](#our-project)
 3. [Requirement Analysis](#requirement-analysis)
 4. [Software Models](#software-models)
-5. [Links](#links)
+5. [Process](#process)
+6. 
+7. [Links](#links)
 
 ---
 
@@ -38,6 +40,7 @@ The sure and the well-known way of knowing the risk of a MI is by performing an 
 - Has to wait in waiting list
 - Comparatively expenive
 - There can be other causes of a heart attack which are not identified through angiograms
+
 ![What is Angiogram?](images/angiogram.jpg)
 
 ## Our Project
@@ -46,13 +49,17 @@ Our focus is to develop a solution to predict a potential myocardial infarction 
 An ECG (ElctroCardioGram) is used to analyze arrythmias i.e.irregularities in heart rhythms. There's an electrical system in the heart that conducts electric signal impulses that produces the pqrs waves on the ECG strip. These arrythmias occur when the electrical signals aren't working properly. Because injured heart muscles aren't able t0 conduct electrical impulses normally, ECGs usually identify a heart attack has occured or is in progress.
 #### How can we incoporate ECG data in our solution?
 A point to note in this particular domain is that there is no straight-forward way of detecting potential MIs directly from an ECG. Usually it is used to identify whether a heart attack has occured which produces abnormal heart rhythms on the ECG. We are developing an approach to identify potential MIs through minor arrythmias that are not very visible at early stages to the naked eye, through an automated computerized system.
+#### What is the benefit of our solution?
+Since ECGs are more accessible, affordable and less-complicated, people can get predictions on potential MIs through our system which helps them to take actions beforehand without having to wait for much more advanced tests. Then they can proceed with further actions and tests.
 #### Existing solutions
 Various reaseaches have been done on this area. These projects have focused on automatic extraction of relavant and reliable information from ECG signals that has not been as easy task for a computerized system and classifying into heart disease classes.
 [Read more about this research](https://www.researchgate.net/publication329318348_ECG_Signal_Classification_with_Deep_Learning_for_Heart_Disease_Identification)
 Our approach is extending these reasearches to predict a risk of a MI.
 
 ## Requirement Analysis
+
 #### Functional Requirements
+
 - System should be able to predict potential heart diseases when an ECG is uploaded. As the initial stage predict potential Myocardial Infarctions
 - Format of the ECG input to the system should be xx. The ECG header includes patient NIC, name, date of birth and gender
 - Any person(_user_) should be able to visit the web-page and upload up to a maximum of 1 ECG per day which should be handled by a throttling process.  This doesn't require any auth process. The homepage of the app should provide this functionality. This feature will be developed in latter parts after evaluating the model success rate and has a higher accuracy
@@ -67,6 +74,7 @@ Our approach is extending these reasearches to predict a risk of a MI.
 - A verified member can insert any identified diseases of a patient including the type of disease, affected date and the affected number known as _diagnosis._ If the diagnosis is valid(valid auth, no previous inserts on the same diagnosis) the verified member will be awarded _helper points_ that are stored along with a verified member's other details which can be deducted from the total at the payment
 
 #### Non-functional Requirements
+
 - Initial project is required to be delivered with 10 weeks of time from 14/02/2022 - 22/04/2022
 - Since this system handles health details about people, considering security aspects of the system is crucial
 - Reliability of predictions, patient details and history is important
@@ -77,6 +85,23 @@ Our approach is extending these reasearches to predict a risk of a MI.
 
 ## Software Models
 
+#### Main epics of the system
+- High-level software system
+- Auth system
+- Heart Disease Predictor system
+- Patient History Tracking system
+
+#### Use Case Diagrams
+
+![High level software system](images/Use%20Case%20Diagram_Software%20System.png)
+![Auth System](images/Use%20Case%20Diagram_Auth.png)
+![Predictor system](images/Use%20Case%20Diagram_Predictor.png)
+![Tracker](images/Use%20Case%20Diagram_Tracker.png)
+
+#### UML Class Diagram
+![UML Class Diagram](images/UML%20Class%20Diagram.png)
+
+## Process
 
 .....
 
