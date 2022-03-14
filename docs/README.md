@@ -111,6 +111,7 @@ We are developing a machine learning based approach to predict potential heart d
 2. ECG pre-processing
 - Analyze the ECG under 16 channels and extract features at a frequency. A signal processor has to be developed for this
 - Pad for missing values
+![ML workflow](images/mlInput)
 3. Predict heart diseases using the developed ML algorithm
 
 .....
