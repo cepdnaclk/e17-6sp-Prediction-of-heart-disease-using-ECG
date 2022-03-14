@@ -19,6 +19,7 @@ The sure and the well-known way of knowing the risk of a MI is by performing an 
 - Has to wait in waiting list
 - Comparatively expenive
 - There can be other causes of a heart attack which are not identified through angiograms
+- Usually performed after getting an attack
 
 ![What is Angiogram?](images/angiogram.jpg)
 
@@ -28,6 +29,8 @@ Our focus is to develop a solution to predict a potential myocardial infarction 
 An ECG (ElctroCardioGram) is used to analyze arrythmias i.e.irregularities in heart rhythms. There's an electrical system in the heart that conducts electric signal impulses that produces the pqrs waves on the ECG strip. These arrythmias occur when the electrical signals aren't working properly. Because injured heart muscles aren't able t0 conduct electrical impulses normally, ECGs usually identify a heart attack has occured or is in progress.
 #### How can we incoporate ECG data in our solution?
 A point to note in this particular domain is that there is no straight-forward way of detecting potential MIs directly from an ECG. Usually it is used to identify whether a heart attack has occured which produces abnormal heart rhythms on the ECG. We are developing an approach to identify potential MIs through minor arrythmias that are not very visible at early stages to the naked eye, through an automated computerized system.
+#### What is the benefit of our solution?
+Since ECGs are more accessible, affordable and less-complicated, people can get predictions on potential MIs through our system which helps them to take actions beforehand without having to wait for much more advanced tests. Then they can proceed with further actions and tests.
 #### Existing solutions
 Various reaseaches have been done on this area. These projects have focused on automatic extraction of relavant and reliable information from ECG signals that has not been as easy task for a computerized system and classifying into heart disease classes.
 [Read more about this research](https://www.researchgate.net/publication329318348_ECG_Signal_Classification_with_Deep_Learning_for_Heart_Disease_Identification)
@@ -47,6 +50,8 @@ Our approach is extending these reasearches to predict a risk of a MI.
 -  Dr. Sampath Deegalla, [email](mailto:sampath@eng.pdn.ac.lk)
 
 ## Links
+- [ Project Repository](https://github.com/cepdnaclk/e17-co328-Prediction-of-heart-disease-using-ECG)
+- [Project Page](https://cepdnaclk.github.io/e17-co328-Prediction-of-heart-disease-using-ECG)
 - [Department Projects](https://projects.ce.pdn.ac.lk)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk)
 - [Faculty of Engineering](http://eng.pdn.ac.lk)
