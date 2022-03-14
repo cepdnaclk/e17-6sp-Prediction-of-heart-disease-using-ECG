@@ -114,6 +114,12 @@ We are developing a machine learning based approach to predict potential heart d
 ![ML workflow](images/mlInput)
 3. Predict heart diseases using the developed ML algorithm
 
+Currently binary classifier models have been developed as the initial step using the following machine learning algorithms.
+- Support Vector Machines (SVM)
+- Nearest Neighbor 
+- Naive Bayes
+
+
 .....
 
 ## Links
