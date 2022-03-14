@@ -4,7 +4,7 @@ permalink: index.html
 
 # Please update this with your repository name and title
 repository-name: e17-co328-Prediction-of-heart-disease-using-ECG
-title:
+title: Prediction of Heart Disease using ECG
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
@@ -52,9 +52,9 @@ Various reaseaches have been done on this area. These projects have focused on a
 Our approach is extending these reasearches to predict a risk of a MI.
 
 ## Requirement Analysis
-### Functional Requirements
+#### Functional Requirements
 
-### Non-functional Requirements
+#### Non-functional Requirements
 
 ## Software Models
 
