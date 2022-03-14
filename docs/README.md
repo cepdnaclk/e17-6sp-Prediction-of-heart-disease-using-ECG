@@ -23,8 +23,8 @@ title: Prediction of Heart Disease using ECG
 2. [Our Project](#our-project)
 3. [Requirement Analysis](#requirement-analysis)
 4. [Software Models](#software-models)
-5. [Process](#process)
-6. 
+5. [System Overview](#system-overview)
+6. [Machine Learning Aspects](#machine-learning-aspects)
 7. [Links](#links)
 
 ---
@@ -101,7 +101,17 @@ Our approach is extending these reasearches to predict a risk of a MI.
 #### UML Class Diagram
 ![UML Class Diagram](images/UML%20Class%20Diagram.png)
 
-## Process
+## System Overview
+
+## Machine Learning Aspects
+We are developing a machine learning based approach to predict potential heart diseases. The dataset we have used for this is **ECG Heartbeat Categorization Dataset** which has been derived from the **PTB Diagnostic ECG Database**
+
+#### High-level implementation process
+1. Develop various models to predict heart diseases and compare accuracies. 
+2. ECG pre-processing
+- Analyze the ECG under 16 channels and extract features at a frequency. A signal processor has to be developed for this
+- Pad for missing values
+3. Predict heart diseases using the developed ML algorithm
 
 .....
 
