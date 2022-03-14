@@ -111,13 +111,17 @@ We are developing a machine learning based approach to predict potential heart d
 2. ECG pre-processing
 - Analyze the ECG under 16 channels and extract features at a frequency. A signal processor has to be developed for this
 - Pad for missing values
-![ML workflow](images/mlInput)
+![ML workflow](images/mlInput.jpg)
 3. Predict heart diseases using the developed ML algorithm
 
+#### Current progress
 Currently binary classifier models have been developed as the initial step using the following machine learning algorithms.
 - Support Vector Machines (SVM)
 - Nearest Neighbor 
 - Naive Bayes
+
+![progress](images/test1.png)
+![progress](images/test2.png)
 
 
 .....
