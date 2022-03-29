@@ -1,17 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #3c65b165;
-    opacity: 1;
-    padding: 0 10%;
-  }
-  
-  .logo {
-    font-size: 2rem;
-    color: white;
-    font-weight: bold;
+    overflow: hidden;
+    background-color: #3c65b165;
+    padding: 20px;
+    text-align: center;
   }
   
   .header ul {
@@ -19,43 +14,77 @@
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: baseline;
-    overflow: hidden;
   }
   
   .header li {
     margin-left: 3rem;
   }
   
-  .header a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #373F41;
-  }
-  
-  .header a:hover,
-  .header a:active,
-  .header a.active {
-    color: white;
-  }
-  
-  .badge {
-    background-color: #cc2062;
-    color: white;
-    border-radius: 12px;
-    padding: 0 1rem;
-    margin-left: 0.5rem;
-  }
-
   .hometitle{
       font-weight: bold;
       font-size: 3vh;
       color: #3C64B1;
-
   }
 
-  .login {
-    font-weight: bold;
-    font-size: 3vh;
+  .small_links {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+
+  .small_links:hover {
+    color: white;
+  }
+
+  .links {
+    text-decoration: none;
+    font-size: 16px;
     color: #3C64B1;
   }
+
+  .links:hover {
+    color: white;
+  }
+
+  .button {
+    background-color: #3C64B1;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #3c65b165;
+    opacity: 0.6;
+  }  
+
+  .text {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 400px) {
+  .header a{
+    float: none;
+    width: 100%;
+  }
+} */
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+  
