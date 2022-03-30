@@ -52,12 +52,13 @@
     text-align: center;
     transition-duration: 0.4s;
   }
+  
+  .button:hover,
+  .button:active {
+    background-color: #a50e48;
+    border-color: #a50e48;
+  }
 
-  .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #3c65b165;
-    opacity: 0.6;
-  }  
 
   .text {
     color: white;
