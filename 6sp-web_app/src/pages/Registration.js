@@ -8,9 +8,9 @@ function RegistrationPage(){
 
     const navigate = useNavigate();
 
-    function registerHandler(registerData) {
-        fetch(
-            'https://jsonplaceholder.typicode.com/todos/1.json',
+    async function registerHandler(registerData) {
+        const response = await fetch(
+            'https://react-6sp-default-rtdb.firebaseio.com/users.json',
             {
                 method: 'POST',
                 body: JSON.stringify(registerData),
@@ -18,16 +18,23 @@ function RegistrationPage(){
                     'Content-Type': 'application/json',
                 },
             }
-        ).then(() => {
+        );
+        /*replace this later and develop the function for else part*/
+        /*
+        const data = await response.json();
+        if(data.status==="SignedUp"){
             navigate('/');
-        });
+        }
+        */
+        navigate('/upload');
+        
     }
 
     return (
         <>
         <NavBar1 link1="" link1_name="Features" link2="" link2_name="Pricing" link3="" link3_name="Contact" link4="/" link4_name="Back to Homepage" link5="/login" link5_name="Login" />
         <Layout>
-            <RegistrationForm onLogin={registerHandler}/>
+            <RegistrationForm onRegister={registerHandler}/>
         </Layout>
         </>
     );

@@ -34,7 +34,7 @@ function RegistrationForm(props){
 
         props.onRegister(registerData);
 
-        console.log(registerData);
+        //console.log(registerData);
     }
 
     return (
@@ -59,11 +59,11 @@ function RegistrationForm(props){
                 </div>
                 <div className={classes.control}>
                     <label htmlFor='password'>Password</label>
-                    <input type='text' required id='password' ref={passwordInputRef}/>
+                    <input type='password' required id='password' ref={passwordInputRef}/>
                 </div>
                 <div className={classes.control}>
                     <label htmlFor='cpassword'>Confirm Password</label>
-                    <input type='text' required id='cpassword' ref={cpasswordInputRef}/>
+                    <input type='password' required id='cpassword' ref={cpasswordInputRef}/>
                 </div>
                 <div className={classes.actions}>
                     <button>Register</button>

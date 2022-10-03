@@ -8,9 +8,9 @@ function LoginPage(){
 
     const navigate = useNavigate();
 
-    function loginHandler(loginData) {
-        fetch(
-            'https://jsonplaceholder.typicode.com/todos/1.json',
+    async function loginHandler(loginData) {
+        const response = await fetch(
+            'https://react-6sp-default-rtdb.firebaseio.com/users.json',
             {
                 method: 'POST',
                 body: JSON.stringify(loginData),
@@ -18,9 +18,16 @@ function LoginPage(){
                     'Content-Type': 'application/json',
                 },
             }
-        ).then(() => {
-            navigate('/');
-        });
+        );
+        /*replace this later and develop the function for else part*/
+        /* 
+        const data = await response.json();
+        if(data.status==="LoggedIn"){
+            navigate('/upload');
+        }
+        */
+        navigate('/upload');
+        
     }
 
     return (
