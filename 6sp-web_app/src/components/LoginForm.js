@@ -23,7 +23,7 @@ function LoginForm(props){
 
         props.onLogin(loginData);
 
-        // console.log(loginData);
+        //console.log(loginData);
     }
 
     return (
@@ -36,7 +36,7 @@ function LoginForm(props){
                 </div>
                 <div className={classes.control}>
                     <label htmlFor='password'>Password</label>
-                    <input type='text' required id='password' ref={passwordInputRef}/>
+                    <input type='password' required id='password' ref={passwordInputRef}/>
                 </div>
                 <div className={classes.actions}>
                     <button>Login</button>
